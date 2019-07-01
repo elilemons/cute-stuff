@@ -1,0 +1,30 @@
+@import '../node_modules/normalize.css/normalize.css';
+@import './assets/utilities.scss';
+
+$heart-size: 50px;
+.heart {
+    height: $heart-size;
+    margin: 0 (1/3 * $heart-size);
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: $heart-size;
+
+    &:before, &:after {
+        content: "";
+        border-radius: 50%;
+        height: $heart-size;
+        width: $heart-size;
+        position: absolute;
+    }
+
+    &:before {
+        top: -1 * ($heart-size/2);
+        left: 0;
+    }
+
+    &:after {
+        left: $heart-size/2;
+        top: 0;
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.11",
+    "parcel-bundler": "^1.12.3",
+    "posthtml": "^0.11.3",
+    "posthtml-custom-elements": "^1.1.2",
+    "posthtml-expressions": "^1.1.0",
+    "posthtml-include": "^1.2.0",
+    "sass": "^1.19.0"
+  },
+  "dependencies": {
+    "include": "^1.1.0",
+    "normalize.css": "^8.0.1"
+  }
+}

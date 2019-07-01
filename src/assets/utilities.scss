@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+@each $colorMap in ($light, $medium, $dark) {
+  @each $colorName, $colorValue in $colorMap {
+    .bg-#{$colorName}, .bg-#{$colorName}:before, .bg-#{$colorName}:after  {
+      background-color: $colorValue;
+    }
+    .text-#{$colorName} {
+      color: $colorValue;
+    }
+  }
+}

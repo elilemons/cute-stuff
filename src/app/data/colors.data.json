@@ -1,0 +1,25 @@
+{
+  "colors": {
+    "light": {
+      "gainsboro": "#D8E2DC",
+      "mistyRose": "#FFE5D9",
+      "bubbleGum": "#FFCAD4",
+      "nadeshikoPink": "#F4ACB7",
+      "mountBattenPink": "#9D8189"
+    },
+    "medium": {
+      "oldLavender": "#6D6875",
+      "apricot": "#FFCDB2",
+      "peach": "#FFB4A2",
+      "parrotPink": "#E5989B",
+      "englishLavender": "#B5838D"
+    },
+    "dark": {
+      "middleRedPurple": "#0B032D",
+      "macAndCheese": "#FFB997",
+      "lightCoral": "#F67E7D",
+      "deepRuby": "#843B62",
+      "deepTaupe": "#74546A"
+    }
+  }
+}
